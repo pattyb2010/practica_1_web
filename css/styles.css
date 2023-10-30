@@ -9,6 +9,11 @@
 	font-family: Raleway;
 	src: url(../font/Raleway/Raleway-Regular.ttf);
   }
+
+@font-face {
+	font-family: Raleway_cursiva;
+    src: url(../font/Raleway/Raleway-LightItalic.ttf);
+}
 /* <menu> */
 .navbar{
 	background: rgba(255, 255, 255, 0);
@@ -22,7 +27,10 @@
 	text-decoration: none;
 	font-size: 1.3em;
 	color: aliceblue;
+}
+.navbar-item:hover{
 	text-decoration: none;
+    background-image: url(../img/fondo.png);
 }
 
 .navbar-burger {
@@ -36,21 +44,19 @@
 	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
 }
 
-.carrito:hover{
-	background: url(../img/4.jpg) ;
-}
-
-.item_hover:hover {
-	background: black ;
-	
-}
-
-a:hover {
-	text-decoration: none;
-}
-
 body{
 	height: 300em;
 	background-image:url(../img/3.jpeg) ;
 }
 
+.title {
+    font-family: Kaftan;
+    font-size: 10em;
+    font-weight: normal;
+}
+
+.subtitle {
+    font-family: Raleway_cursiva;
+    font-size: 4em;
+    font-weight: normal;
+}
