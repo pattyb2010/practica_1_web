@@ -25,10 +25,6 @@
 	text-decoration: none;
 }
 
-.is-active:hover  {
-	color: black;
-}
-
 .navbar-burger {
 	color: aliceblue;
 }
@@ -44,7 +40,7 @@
 	background: url(../img/4.jpg) ;
 }
 
-.item_hover:hover{
+.item_hover:hover {
 	background: black ;
 	
 }
