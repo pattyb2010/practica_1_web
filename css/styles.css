@@ -1,0 +1,61 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@font-face {
+	font-family: Kaftan;
+	src: url(../font/Kaftan\ -\ Trial.otf);
+}
+
+@font-face {
+	font-family: Raleway;
+	src: url(../font/Raleway/Raleway-Regular.ttf);
+  }
+/* <menu> */
+.navbar{
+	background: rgba(255, 255, 255, 0);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+}
+
+.navbar-item{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.is-active:hover  {
+	color: black;
+}
+
+.navbar-burger {
+	color: aliceblue;
+}
+
+.navbar-menu {
+	background: rgba(255, 255, 255, 0);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+}
+
+.carrito:hover{
+	background: url(../img/4.jpg) ;
+}
+
+.item_hover:hover{
+	background:none ;
+	color: aliceblue;
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body{
+	height: 300em;
+	background-image:url(../img/3.jpeg) ;
+}
+
