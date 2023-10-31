@@ -71,6 +71,45 @@
 }
 
 .bd-notification.is-primary {
-    background-color: #00d1b2;
+    background-color: #ffffff;
     color: #fff;
+}
+
+.is-img-center {
+    margin: 0 auto;
+}
+
+.rounded-xl {
+    border-radius: 0.75rem !important;
+}
+
+.is-cursor-pointer {
+    cursor: pointer !important;
+}
+
+.transform {
+    -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+    transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.is-duration-300 {
+    transition-duration: 0.3s;
+}
+
+.hover-translate-y:hover {
+    -webkit-transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+    transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+}
+
+@media screen and (min-width: 769px){
+    .hero.is-large .hero-body {
+        padding: 0rem 0rem;
+        margin: 0 5em 0 5em;
+    }
+}
+.column{
+    padding: 3em;
+ }
+.hero.is-large .hero-body{
+    margin: 0 5em 0 5em;
 }
