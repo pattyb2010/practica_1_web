@@ -1,3 +1,4 @@
+
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 @font-face {
@@ -16,7 +17,7 @@
 }
 /* <menu> */
 .navbar{
-	background: rgba(255, 255, 255, 0);
+	background: rgba(0, 0, 0, 0.059);
 	backdrop-filter: blur(10.9px);
 	-webkit-backdrop-filter: blur(10.9px);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
@@ -44,11 +45,6 @@
 	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
 }
 
-body{
-	height: 300em;
-	background-image:url(../img/3.jpeg) ;
-}
-
 .title {
     font-family: Kaftan;
     font-size: 10em;
@@ -59,4 +55,22 @@ body{
     font-family: Raleway_cursiva;
     font-size: 4em;
     font-weight: normal;
+}
+
+#header{
+    background-image: url(../img/cabecera.jpg);
+    background-size: cover;
+}
+
+#title{
+    color: #2B4836;
+}
+
+#background_green {
+    background-color: #2B4836;
+}
+
+.bd-notification.is-primary {
+    background-color: #00d1b2;
+    color: #fff;
 }
