@@ -63,7 +63,6 @@
 }
 
 #title_tienda{
-    color: #2B4836;
     padding-top: 0.5em;
 }
 
@@ -81,10 +80,33 @@
 }
 
 #tienda_background{
-    background-image: url(../img/ovejas.jpg);
+    
     background-size: cover;
+	background: linear-gradient(270deg, #2b4836, #989d65, #e78e46, #feefbd);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
 
 }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 7%}
+    50%{background-position:100% 94%}
+    100%{background-position:0% 7%}
+}
+
 
 .is-img-center {
     margin: 0 auto;
@@ -138,4 +160,41 @@
 
 #margen_comentarios3{
 	margin: 0em 3em 3em 3em;
+}
+
+
+.c-card-text,
+.c-card-name,
+.c-card-handle {
+	display: inline-block;
+
+	text-align: center;
+
+  display: block;
+}
+
+.c-card-social-img {
+	margin: 0 auto 15px;
+	display: inline-block;
+
+  }
+.c-card-main-img {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+}
+
+.c-card-text {
+  margin: 0 0 15px;
+}
+
+.c-card-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.c-card-handle {
+  color: #999;
+  font-size: 14px;
+  margin-top: 2 px;
 }
