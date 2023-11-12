@@ -238,3 +238,35 @@
     height:50px;
     border-radius:150px
 }
+
+.buy-button {
+    
+    padding: 20px 30px;
+    font-size: 1.5rem; 
+  
+    border-radius: 8px;
+    margin-left: auto;
+    display: block;
+    background-color: #989D65; 
+    color: #ffffff; 
+    font-family: 'Raleway', sans-serif;
+    border: none;
+  }
+  
+  
+.buy-button:hover {
+    background-color: #294B34; 
+    color: #ffffff; 
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .buy-button {
+      padding: 18px 28px;
+      font-size: 1.4rem;
+    }
+  }
+
+  
+   
+
