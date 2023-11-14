@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+</head>
+<body class="cart-page">
+
+    <section class="section">
+        <div class="container">
+            <div class="custom-card cart-card">
+                 <button class="delete close-button" onclick="cerrarCarrito()"></button>
+                  <h1 class="title has-text-centered">Carrito</h1>
+
+        
+                <div class="box cart-box">
+                    <h3 class="subtitle">Artículos en el carrito</h3>
+                    <ul>
+                        
+                        <li>Woolen Blanca - Precio: 5.50€</li>
+                        <li>Woolen Rosa - Precio: 5.50€</li>
+                        <li>Woolen Verde - Precio: 5.50€</li>
+                        <li>Woolen azul - Precio: 5.50€</li>
+                        
+                    </ul>
+                </div>
+
+                
+                <div class="box cart-summary-box">
+                    <h2 class="subtitle">Resumen del Carrito</h2>
+                    <p>Total de artículos: 4</p>
+                    <p>Total a Pagar: 22€</p>
+                    <br>
+                    <a class="button is-primary is-fullwidth buy-button" href="#">Proceder al Pago</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function cerrarCarrito() {
+            
+            window.location.href = "index.html";
+        }
+    </script>
+
+
+
+</body>
+</html>
