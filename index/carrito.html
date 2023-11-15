@@ -3,17 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
     <link rel="stylesheet" href="../css/styles.css">
     <title>Carrito de Compras</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="icon" href="../img/favicon.png">
+
 </head>
-<body class="cart-page">
+<body class="cart_background">
+
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id=" navbar_carrito">
+        <div class="navbar-brand">
+
+          <a class="navbar-item" href="../index.html">
+              
+              <img src="../img/logo2.png" alt="logo" width="112" height="28"/>
+          </a>
+          
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+          </a>
+
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          
+          <div class="navbar-end">
+              <a href="#" class="navbar-item has-text-white">Tienda</a>
+
+              <a href="carrito.html" class="navbar-item carrito"><img src="../img/carrito-menu.png" alt="carrito"></a>
+              
+          
+          </div>
+        </div>
+  </nav>
+
 
     <section class="section">
         <div class="container">
             <div class="custom-card cart-card">
-                 <button class="delete close-button" onclick="cerrarCarrito()"></button>
-                  <h1 class="title has-text-centered">Carrito</h1>
+                  <h1 class="title has-text-centered is-size-1-mobile">Carrito</h1>
 
         
                 <div class="box cart-box">
@@ -40,12 +70,6 @@
         </div>
     </section>
 
-    <script>
-        function cerrarCarrito() {
-            
-            window.location.href = "index.html";
-        }
-    </script>
 
 
 

@@ -22,7 +22,9 @@
 	-webkit-backdrop-filter: blur(10.9px);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
 	font-family: raleway;
+
 }
+
 
 .navbar-item{
 	text-decoration: none;
@@ -43,6 +45,15 @@
 	backdrop-filter: blur(10.9px);
 	-webkit-backdrop-filter: blur(10.9px);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+}
+
+.navbar{
+	background: rgba(0, 0, 0, 0.059);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
 }
 
 .title {
@@ -147,7 +158,9 @@
 .hero.is-large .hero-body{
     margin: 0 5em 0 5em;
 }
-
+.columns:last-child {
+    margin-bottom: 0;
+}
 /* text animation */
 
 .scrolling_text {
@@ -239,6 +252,8 @@
     border-radius:150px
 }
 
+/* boton tienda */
+
 .buy-button {
     
     padding: 20px 30px;
@@ -255,7 +270,7 @@
   
   
 .buy-button:hover {
-    background-color: #294B34; 
+    background-color: #294B36; 
     color: #ffffff; 
   }
   
@@ -266,14 +281,14 @@
       font-size: 1.4rem;
     }
   }
-
+/* carrito */
 
 .cart-page {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color:#294B34 
+    background-color:#2B4836 
 }
 
 
@@ -312,4 +327,8 @@
     color: #383838; 
 }
 
+/* paj cariito */
 
+.cart_background{
+    background-color: #294B36;
+}
