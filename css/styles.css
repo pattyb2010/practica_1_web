@@ -94,6 +94,63 @@
 
 }
 
+#card_tienda1{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+#card_tienda2{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+#card_tienda3{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+#card_tienda4{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+#card_tienda5{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+#card_tienda6{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+#card_tienda7{
+    background: rgba(255, 255, 255, 0.124);
+	backdrop-filter: blur(10.9px);
+	-webkit-backdrop-filter: blur(10.9px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.376);
+	font-family: raleway;
+
+}
+
 #tienda_background{
     
     background-size: cover;
