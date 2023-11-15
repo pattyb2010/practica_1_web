@@ -316,20 +316,6 @@
 }
 
 
-.close-button {
-    position: relative;
-    top: -44px;
-    right: -279px;
-    font-size: 1.5em;
-    color: #333;
-    cursor: pointer;
-    background: none;
-    border: none;
-}
-
-.close-button:hover {
-    color: #383838; 
-}
 
 /* paj cariito */
 
