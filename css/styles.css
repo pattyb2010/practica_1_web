@@ -417,12 +417,7 @@
     padding: 1em 2em;
   }
   
-  .modal__footer {
-    text-align: right;
-    a {
-      color: #294B36;
-    }
-  }
+  
   .modal__close {
     position: absolute;
     top: 10px;
